@@ -680,16 +680,31 @@ body * {
 }
 
 .user>.avatar {
-	width: 20px;
-	height: 20px;
-	margin-right: 5px;
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
 	background-size: cover;
 	background-position: center;
 	border-radius: 50%;
+	cursor: pointer;
+	flex-shrink: 0;
 }
 
+/* Avatar for user he204010: use the main photo and ensure it fits the frame */
 #sv-he204010>.avatar {
 	background-image: url(images/avatar/he2040102.jpg);
+}
+
+/* Link wrapper for avatar when clickable */
+.avatar-link {
+	display: inline-block;
+	line-height: 0;
+	text-decoration: none;
+}
+.avatar-link:focus,
+.avatar-link:hover {
+	outline: none;
+	opacity: 0.95;
 }
 
 
@@ -821,8 +836,9 @@ body * {
 	width: 70%;
 	height: 100%;
 	background-image: url(images/teacher/coduyen.jpg);
-	background-size: cover;
-	background-position: center;
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
 	margin-right: 10px;
 }
 
@@ -840,7 +856,8 @@ body * {
 	width: 70%;
 	height: 100%;
 	background-image: url(images/teacher/coduyen2.png);
-	background-size: cover;
-	background-position: top;
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
 	margin-left: 5px;
 }
