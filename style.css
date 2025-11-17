@@ -688,17 +688,11 @@ body * {
 	border-radius: 50%;
 }
 
-#sv-518h0584>.avatar {
-	background-image: url(images/avatar/518h0584.jpg);
+#sv-he204010>.avatar {
+	background-image: url(images/avatar/he2040102.jpg);
 }
 
-#sv-518h0076>.avatar {
-	background-image: url(images/avatar/518h0076.jpg);
-}
 
-#sv-518h0044>.avatar {
-	background-image: url(images/avatar/518h0044.jpg);
-}
 
 .sticker {
 	width: 200%;
@@ -826,7 +820,7 @@ body * {
 .area:nth-child(3)>.img {
 	width: 70%;
 	height: 100%;
-	background-image: url(images/teacher/teacher1.png);
+	background-image: url(images/teacher/coduyen.jpg);
 	background-size: cover;
 	background-position: center;
 	margin-right: 10px;
@@ -845,7 +839,7 @@ body * {
 .area:nth-child(4)>.img {
 	width: 70%;
 	height: 100%;
-	background-image: url(images/teacher/teachers.png);
+	background-image: url(images/teacher/coduyen2.png);
 	background-size: cover;
 	background-position: top;
 	margin-left: 5px;
