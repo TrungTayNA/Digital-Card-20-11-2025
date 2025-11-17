@@ -836,7 +836,8 @@ body * {
 	width: 70%;
 	height: 100%;
 	background-image: url(images/teacher/coduyen.jpg);
-	background-size: contain;
+	/* phóng to ảnh gấp đôi so với kích thước thùng */
+	background-size: 200% 200%;
 	background-position: center center;
 	background-repeat: no-repeat;
 	margin-right: 10px;
@@ -856,7 +857,8 @@ body * {
 	width: 70%;
 	height: 100%;
 	background-image: url(images/teacher/coduyen2.png);
-	background-size: contain;
+	/* phóng to ảnh gấp đôi so với kích thước thùng */
+	background-size: 200% 200%;
 	background-position: center center;
 	background-repeat: no-repeat;
 	margin-left: 5px;
