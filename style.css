@@ -836,10 +836,11 @@ body * {
 	width: 70%;
 	height: 100%;
 	background-image: url(images/teacher/coduyen.jpg);
-	/* phóng to ảnh gấp đôi so với kích thước thùng */
-	background-size: 200% 200%;
+	/* Không méo ảnh: hiển thị toàn bộ ảnh vừa khung, giữ tỉ lệ */
+	background-size: contain;
 	background-position: center center;
 	background-repeat: no-repeat;
+	background-color: transparent;
 	margin-right: 10px;
 }
 
@@ -857,9 +858,10 @@ body * {
 	width: 70%;
 	height: 100%;
 	background-image: url(images/teacher/coduyen2.png);
-	/* phóng to ảnh gấp đôi so với kích thước thùng */
-	background-size: 200% 200%;
+	/* Không méo ảnh: hiển thị toàn bộ ảnh vừa khung, giữ tỉ lệ */
+	background-size: contain;
 	background-position: center center;
 	background-repeat: no-repeat;
+	background-color: transparent;
 	margin-left: 5px;
 }
