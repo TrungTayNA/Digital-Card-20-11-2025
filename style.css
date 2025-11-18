@@ -534,6 +534,30 @@ body * {
 	height: 65px;
 }
 
+/* Front-created-by avatar */
+#note>.content>.front .note-creator {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	gap: 12px;
+}
+
+.note-avatar {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	object-fit: cover;
+	-webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+	box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+}
+
+.note-creator-text {
+	color: #000;
+}
+
 #note>.content>.back {
 	background-color: #ffff8d;
 	transform: rotateY(180deg);
@@ -580,8 +604,8 @@ body * {
 	left: 50%;
 	top: 50%;
 	width: 500px;
-	height: 300px;
-	-ms-transform: translate(-50%, -50%) scale(2);
+	width: 60px;
+	height: 60px;
 	transform: translate(-50%, -50%) scale(2);
 	-webkit-transform: translate(-50%, -50%) scale(2);
 	overflow: hidden;
